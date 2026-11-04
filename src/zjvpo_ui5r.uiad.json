@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "An SAP Fiori application.",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "JV Posting Log"
+  },
+  "ui5AppDetails": {
+    "appId": "zjvpost"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_162488E3E6BE709811FBB4A7D8AD94BFA14CCE64_TM",
+    "semanticObject": "zjvpost",
+    "action": "Display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_162488E3E6BE709811FBB4A7D8AD94BFA14CCE64_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "JV Posting Log",
+        "icon": "sap-icon://accounting-document-verification"
+      }
+    }
+  ]
+}
